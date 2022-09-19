@@ -9,16 +9,61 @@
   </head>
   <body>
     <section class="card-budget">
-      <div
-        class="display-datas"
-        style="
-          width: 100%;
-          background-image: url('/assets/img/nature.jpg');
-          height: 70vh;
-          background-position: center;
-          background-size: cover;
-        "
-      ></div>
+      <div class="display-datas">
+        <h3>Available Budget in April 2019</h3>
+        <span>+0.00</span>
+        <div class="container-data">
+          <div class="income">
+            <div class="income-details">
+              <div class="group-spans">
+                <span>Income</span>
+                <span>+ 000</span>
+              </div>
+            </div>
+          </div>
+          <div class="expenses">
+            <div class="expenses-details">
+              <div class="group-spans">
+                <span>Expenses</span>
+                <span>+ 000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="input-datas">
+        <select id="input_value">
+          <option value="entree">+</option>
+          <option value="sortie">-</option>
+        </select>
+        <div class="text-area">
+          <input type="text" id="text" placeholder="Add description" />
+          <span id="span-text" hidden style="color: red; font-size: 13px"
+            >Description obligatoire</span
+          >
+        </div>
+        <div class="number-area">
+          <input type="number" id="number" placeholder="value" min="0" />
+          <span id="span-number" hidden style="color: red; font-size: 13px"
+            >Valeur obligatoire</span
+          >
+        </div>
+      </div>
+    </section>
+    <section class="data-spaces">
+      <div class="inside-data-spaces">
+        <div class="income-space">
+          <h3>INCOME</h3>
+          <div id="inside-income"></div>
+        </div>
+        <div class="expenses-space">
+          <h3>EXPENSES</h3>
+          <div class="render-expenses">
+            <span>Hello</span>
+            <span>+5000</span>
+          </div>
+        </div>
+      </div>
     </section>
     <script src="/assets/js/myscript.js"></script>
   </body>
