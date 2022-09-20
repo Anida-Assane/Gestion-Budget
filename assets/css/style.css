@@ -103,9 +103,14 @@ select {
   color: #fba90a;
   font-size: 18px;
   flex: 2;
+  max-height: 150px;
+  overflow: auto;
 }
+
 .expenses-space {
   color: #ff3859;
   font-size: 18px;
   flex: 2;
+  max-height: 150px;
+  overflow: auto;
 }
