@@ -17,8 +17,8 @@
   <body>
     <section class="card-budget">
       <div class="display-datas">
-        <h3>Available Budget in April 2019</h3>
-        <span>+0.00</span>
+        <h2 style="margin-bottom: 12px">Available Budget in April 2019</h2>
+        <span id="ecart"></span>
         <div class="container-data">
           <div class="income">
             <div class="income-details">
@@ -45,13 +45,13 @@
         </select>
         <div class="text-area">
           <input type="text" id="text" placeholder="Add description" />
-          <span id="span-text" hidden style="color: red; font-size: 13px"
+          <span id="span-text" hidden style="color: red"
             >Description obligatoire</span
           >
         </div>
         <div class="number-area">
           <input type="number" id="number" placeholder="value" min="0" />
-          <span id="span-number" hidden style="color: red; font-size: 13px"
+          <span id="span-number" hidden style="color: red"
             >Valeur obligatoire</span
           >
         </div>

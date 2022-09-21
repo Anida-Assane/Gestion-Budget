@@ -15,7 +15,7 @@
   align-items: center;
   flex-direction: column;
 }
-.display-datas h3 + span {
+.display-datas h2 + span {
   font-size: 2.5vw;
 }
 .container-data {
@@ -113,4 +113,9 @@ select {
   flex: 2;
   max-height: 150px;
   overflow: auto;
+}
+#span-text,
+#span-number {
+  color: red !important;
+  font-size: 13px;
 }
